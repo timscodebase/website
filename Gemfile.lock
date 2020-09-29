@@ -13,6 +13,15 @@ GIT
     middleman-alias (0.0.10)
       middleman-core (~> 3.2)
 
+GIT
+  remote: https://github.com/mwils/middleman-spellcheck.git
+  revision: 9edeaa3d7ef793f2eded94eacd3fb48d3b64a3de
+  branch: class
+  specs:
+    middleman-spellcheck (0.8.0)
+      middleman-core (~> 3.2)
+      nokogiri
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -170,6 +179,16 @@ GEM
       coderay (~> 1.0)
       method_source (~> 0.8)
       slop (~> 3.4)
+    pry (0.9.12.6-i386-mingw32)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+      win32console (~> 1.3)
+    pry (0.9.12.6-i386-mswin32)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+      win32console (~> 1.3)
     pry (0.9.12.6-x86-mingw32)
       coderay (~> 1.0)
       method_source (~> 0.8)
@@ -289,6 +308,7 @@ DEPENDENCIES
   middleman-alias!
   middleman-blog (~> 3.0)
   middleman-bootstrap-navbar
+  middleman-spellcheck!
   neat (~> 1.8.0)
   poltergeist
   pry
